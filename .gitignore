@@ -1,0 +1,33 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+
+# Databases
+*.db
+
+# FAISS / Serialized Models
+*.index
+*.bin
+*.pkl
+
+# Logs
+*.log
+
+# Misc
+imports.txt
+desktop.ini
+Thumbs.db
