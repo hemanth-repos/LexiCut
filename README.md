@@ -6,12 +6,12 @@
 
 ## 🌟 Features
 
-- ** Sub-Millisecond Retrieval**: Accelerated by a C++ FAISS vector index backend (`IndexFlatIP` with `IndexIDMap`).
-- ** Antonym Conflict Detection (Semantic Safety)**: Identifies opposite/contradictory queries (e.g., *Enable dark mode* vs. *Disable dark mode*) to prevent false cache hits.
-- ** Multi-Stage Validation Pipeline**: Evaluates cosine similarity, Jaccard word overlap, and antonym safety sequentially.
-- ** Real-time Telemetry & ROI Dashboard**: Built-in Streamlit dashboard tracking cache hit rates, token savings, latency speedups, and scalability projections.
-- ** Auto-Migration & Persistence**: Automatic SQLite telemetry database migrations and pickle metadata recovery on restart.
-- ** FastAPI Ready**: Async REST API endpoints for seamless LLM service integration.
+- Sub-Millisecond Retrieval**: Accelerated by a C++ FAISS vector index backend (`IndexFlatIP` with `IndexIDMap`).
+- Antonym Conflict Detection (Semantic Safety)**: Identifies opposite/contradictory queries (e.g., *Enable dark mode* vs. *Disable dark mode*) to prevent false cache hits.
+- Multi-Stage Validation Pipeline**: Evaluates cosine similarity, Jaccard word overlap, and antonym safety sequentially.
+- Real-time Telemetry & ROI Dashboard**: Built-in Streamlit dashboard tracking cache hit rates, token savings, latency speedups, and scalability projections.
+- Auto-Migration & Persistence**: Automatic SQLite telemetry database migrations and pickle metadata recovery on restart.
+- FastAPI Ready**: Async REST API endpoints for seamless LLM service integration.
 
 ---
 
