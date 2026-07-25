@@ -15,7 +15,7 @@
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 graph TD
@@ -47,7 +47,7 @@ graph TD
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Core Framework**: Python 3.10+, FastAPI, Uvicorn, Pydantic
 - **Vector Search Engine**: FAISS (Facebook AI Similarity Search)
@@ -58,7 +58,7 @@ graph TD
 
 ---
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**:
    ```bash
@@ -109,7 +109,7 @@ curl -X POST "http://127.0.0.1:8000/chat" \
 
 ---
 
-## 📊 Running Telemetry Dashboard
+## Running Telemetry Dashboard
 
 To launch the real-time executive dashboard:
 
@@ -120,7 +120,7 @@ Access the UI in your browser at `http://localhost:8501`.
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 LexiCut includes a suite of automated unit, integration, and migration tests.
 
@@ -158,7 +158,7 @@ LexiCut includes a suite of automated unit, integration, and migration tests.
 
 ---
 
-## ⚡ Running Stress Test
+## Running Stress Test
 
 To execute the 100-query stress benchmark evaluating cache hit rate, antonym block accuracy, latency, and token ROI:
 
@@ -168,7 +168,7 @@ python tests/stress_test.py
 
 ---
 
-## 📊 Running Vector Benchmarks
+## Running Vector Benchmarks
 
 To benchmark FAISS vector search vs. linear scan across 100 to 10,000 index sizes:
 
@@ -178,7 +178,7 @@ python benchmarks/benchmark_faiss.py
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 LexiCut/
